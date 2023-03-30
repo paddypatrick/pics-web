@@ -1,0 +1,137 @@
+
+body{
+    width: 100%;
+    background: linear-gradient(rgba(4,9,30,0.7)50%,rgba(4,9,30,0.7)50%),url(pic\ \(9\).jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 109vh;
+}
+nav{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 150%;
+    text-align: left;
+}
+nav ul{
+    overflow: hidden;
+    margin-left: 200px;
+}
+nav ul li{
+    list-style: none;
+    position: relative;
+    width: 20%;
+
+   }
+   nav ul li a,
+   nav ul li a :focus,
+   nav ul li a  :visited,
+   nav ul li a :hover,
+   nav ul li a:active{
+    color: #000;
+    text-decoration: none;
+   }
+   nav ul li a:hover,
+   nav ul li a:active{
+    background: white;
+    color: red;
+   }
+  
+   
+  
+    .logo{
+        color: #ff7200;
+        font-size: 35px;
+        font-family: arial;
+        padding-left: 20px;
+        float: left;
+        padding-top: 10px;
+    }
+    .search{
+        width: 330px;
+        float: left;
+        margin-left: 270px;
+    }
+    .srch{
+        font-family: 'Times New Roman';
+        width: 200px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid #ff7200;
+        margin-top: 13px;
+        color: #fff;
+        border-right: none;
+        font-size: 16px;
+        float: left;
+        padding: 10px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    .btn{
+        width: 100px;
+        height: 40px;
+        background: #ff7200;
+        border: 2px solid #ff7200;
+        margin-top: 13px;
+        color: #fff;
+        font-size: 15px;
+        border-bottom-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .btn:focus{
+        outline: none;
+    }
+    .srch:focus{
+        outline: none;
+    }
+    .content{
+        width: 1200px;
+        height: auto;
+        margin: auto;
+        color: white;
+        position: absolute;
+    }
+    .content .par{
+        padding-left: 20px;
+        padding-bottom: 25px;
+        font-family: Arial;
+        letter-spacing: 1.2px;
+        line-height: 30px;
+    }
+    .content h1{
+        font-family: 'Times New Roman';
+        font-size: 50px;
+        padding-left: 20px;
+        margin-top: 9%;
+        letter-spacing: 2px;
+    }
+    .cn{
+        width: 160px;
+        height: 40px;
+        background: #ff7200;
+        border: none;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .cn a{
+        text-decoration: none;
+        color: black;
+        transition: .4s ease;
+    }
+    .cn:hover{
+        background-color: white;
+    }
+    .content span{
+        color: #ff7200;
+        font-size: 20px;
+    }
+   .footer{
+    background-image: url(pic);
+   }
+
+   
+    
+    
